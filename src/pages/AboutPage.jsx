@@ -3,6 +3,9 @@ import AboutCard from '../components/AboutCard';
 
 const AboutPage = () => {
   return (
+    <main className="flex justify-center p-4"> 
+      {/* New: This div limits the content width on large screens */}
+      <div className="w-full max-w-3xl"> 
     <section className= "flex-1 space-y-8">
     <div>
       <h1 className="text-4xl md:text-5xl font-bold text-[#f8fafc] mb-4">
@@ -18,15 +21,18 @@ const AboutPage = () => {
         description={<p>BSc in ICT — University of Sri Jayewardenepura</p>}/>
       <AboutCard
         title="Technical Skills"
-        description={<p> </p>}/>
+        description={<p>Python, C#, React, HTML, CSS, SQL, Tailwind CSS</p>}/>
         <AboutCard
         title="Soft Skills"
-        description={<p> </p>}/>
+        description={<p>Communication, Teamwork, Problem-Solving, Project Management, Creativity</p>}/>
         <AboutCard
         title="Interest"
-        description={<p> </p>}/>
+        description={<p>UI/UX Design, Project Management</p>}/>
     </section>
+    </div>
+    </main>
   );
 };
 
 export default AboutPage;
+
