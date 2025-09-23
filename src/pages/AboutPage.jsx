@@ -22,6 +22,9 @@ const AboutPage = () => {
         <AboutCard
         title="Soft Skills"
         description={<p> </p>}/>
+        <AboutCard
+        title="Interest"
+        description={<p> </p>}/>
     </section>
   );
 };
