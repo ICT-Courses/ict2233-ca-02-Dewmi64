@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import ContactCard from '../components/ContactCard';
+import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
+
+
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -34,7 +38,7 @@ const ContactPage = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  
+
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -46,6 +50,7 @@ const ContactPage = () => {
   };
 
   return (
+    
     <section className="bg-[#1e293b] p-8 rounded-lg shadow-lg lg:w-1/2">
       <h1>Contact Page</h1>
       
@@ -54,6 +59,29 @@ const ContactPage = () => {
           Your message has been received. Thank you!
         </div>
       )}
+      <section className="space-y-6 lg:space-y-4 lg:w-1/2 mb-8 lg:mb-0">
+      <h2 className="text-2xl md:text-3xl font-semibold text-[#f8fafc] text-center lg:text-left">Get in Touch</h2>
+      <ContactCard
+        icon={<FaLinkedin />}
+        label="LinkedIn"
+        link=""
+      />
+      <ContactCard
+        icon={<FaGithub />}
+        label="GitHub"
+        link=""
+      />
+      <ContactCard
+        icon={<FaEnvelope />}
+        label="Email"
+        link=""
+      />
+      <ContactCard
+        icon={<FaPhone />}
+        label="Phone Number"
+        link=""
+      />
+    </section>
 
       <form onSubmit={handleSubmit} className="space-y-6">
 
@@ -101,6 +129,8 @@ const ContactPage = () => {
         </button>
       </form>
      </section>
+     
+     
   );
 };
 
