@@ -3,10 +3,9 @@ import AboutCard from '../components/AboutCard';
 
 const AboutPage = () => {
   return (
-    <main className="flex justify-center p-4"> 
-      {/* New: This div limits the content width on large screens */}
+    <main className="flex justify-center p-4 min-h-screen bg-[#0f172a] text-[#94a3b8] flex justify-center"> 
       <div className="w-full max-w-3xl"> 
-    <section className= "flex-1 space-y-8">
+    <section className= "flex-1 justify-center space-y-8 ">
     <div>
       <h1 className="text-4xl md:text-5xl font-bold text-[#f8fafc] mb-4">
        <span className="text-[#cbd5e1]">About Me</span></h1>
