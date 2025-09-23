@@ -4,7 +4,7 @@ import ProfilePicture from '../assets/Image/Profile Pic.jpg';
 
 const HomePage = () => {
   return (
-  <section className="flex flex-col md-flex-row justify-center items-center p-10 space-x-10 lg:flex-row ssm:w-fit bg-blue-900">
+  <section className="flex flex-col md-flex-row justify-center items-center p-10 space-x-10 lg:flex-row ssm:w-fit bg-[#0f172a] min-h-screen">
   <div className='flex flex-col justify-center itemscenter md:items-start text-center md:text-left md:lg:w 1/3 '>
     <p className ='text-4xl mb-5  md:text-5xl text-slate-300'>Hii, I'm</p>
       <h1 className="text-6xl  md:text-7xl text-white mb-5">Dewmini Karavita</h1>
