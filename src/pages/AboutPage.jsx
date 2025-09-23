@@ -16,6 +16,9 @@ const AboutPage = () => {
      <AboutCard
         title="Education"
         description={<p>BSc in ICT — University of Sri Jayewardenepura</p>}/>
+      <AboutCard
+        title="Technical Skills"
+        description={<p> </p>}/>
     </section>
   );
 };
