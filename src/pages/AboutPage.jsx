@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutCard from '../components/AboutCard';
 
 const AboutPage = () => {
   return (
@@ -10,8 +11,11 @@ const AboutPage = () => {
               I am an undergraduate IT student at the University of Sri Jayewardenepura, pursuing a BSc in ICT. 
               I combine technical knowledge with creativity to build effective digital solutions. My interests include UI/UX design and project management. 
               I aim to grow into a role as a Project Manager, UI/UX Designer, or Business Analyst, contributing to impactful projects while continuously learning in the IT industry.
-            </p>
+    </p>
     </div>
+     <AboutCard
+        title="Education"
+        description={<p>BSc in ICT — University of Sri Jayewardenepura</p>}/>
     </section>
   );
 };
