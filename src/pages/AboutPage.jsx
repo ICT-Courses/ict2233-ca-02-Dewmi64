@@ -14,8 +14,8 @@ const AboutPage = () => {
   className="w-64 h-64 rounded-full object-cover border-4 border-[#cbd5e1]" 
   />
       <h1 className="text-4xl md:text-5xl font-bold text-[#f8fafc] mb-4">
-       <span className="text-[#cbd5e1]">About Me</span></h1>
-    <p className="text-lg md:text-xl leading-relaxed">
+       <span className="text-[#cbd5e1] animate-fadeInSlideUp">About Me</span></h1>
+    <p className="text-lg md:text-xl leading-relaxed animate-fadeInSlideUp">
               I am an undergraduate IT student at the University of Sri Jayewardenepura, pursuing a BSc in ICT. 
               I combine technical knowledge with creativity to build effective digital solutions. My interests include UI/UX design and project management. 
               I aim to grow into a role as a Project Manager, UI/UX Designer, or Business Analyst, contributing to impactful projects while continuously learning in the IT industry.
@@ -23,7 +23,8 @@ const AboutPage = () => {
     </div>
      <AboutCard
         title="Education"
-        description={<p>BSc in ICT — University of Sri Jayewardenepura</p>}/>
+        description={<p>BSc(Bachelor of Science)in ICT-University of Sri Jayewardenepura</p>}/>
+        
       <AboutCard
         title="Technical Skills"
         description={<p>Python, C#, React, HTML, CSS, SQL, Tailwind CSS</p>}/>

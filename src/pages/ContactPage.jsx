@@ -55,8 +55,8 @@ const ContactPage = () => {
         
 
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#f8fafc] mb-2">Contact Me</h1>
-          <p className="text-lg md:text-xl">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#f8fafc] mb-2 mt-8 animate-fadeInSlideUp">Contact Me</h1>
+          <p className="text-lg md:text-xl animate-fadeInSlideUp">
             I'm always open to new opportunities and collaborations. Feel free to reach out to me!</p>
         </div>
   

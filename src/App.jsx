@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500">>
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />

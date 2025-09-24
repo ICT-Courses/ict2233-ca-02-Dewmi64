@@ -37,8 +37,8 @@ const ProjectPage = () => {
   return (
     <div className="bg-[#0f172a] text-[#94a3b8] min-h-screen pt-20 pb-10">
       <div className="text-center mb-12">
-      <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">My Projects</h1>
-      <p className="text-lg md:text-xl">Here are some of the projects I've built.</p>
+      <h1 className="text-4xl md:text-5xl font-bold text-white mb-2 animate-fadeInSlideUp">My Projects</h1>
+      <p className="text-lg md:text-xl animate-fadeInSlideUp">Here are some of the projects I've built.</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto px-4">

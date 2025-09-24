@@ -1,16 +1,15 @@
 import React from 'react';
 import ProfilePicture from '../assets/Image/Profile Pic.jpg';
 
-
 const HomePage = () => {
   return (
   <section className="flex flex-col-reverse md-flex-row justify-center items-center p-10 space-x-10 lg:flex-row ssm:w-fit bg-[#0f172a] min-h-screen">
   <div className='flex flex-col justify-center itemscenter md:items-start text-center md:text-left md:lg:w 1/3 '>
-    <p className ='text-4xl mb-5  md:text-5xl text-slate-300'>Hello, I'm</p>
-      <h1 className="text-4xl md:text-5xl font-bold text-[#f8fafc] mb-4 text-[#cbd5e1]">Dewmini Karavita</h1>
-       <p className="text-xl md:text-xl text-[#f8fafc] mb-4 text-[#cbd5e1]/80">Undergraduate (BSc in ICT, USJ)</p>
+    <p className ='text-4xl mb-5  md:text-5xl text-slate-300 animate-fadeInSlideUp'>Hello, I'm</p>
+      <h1 className="text-4xl md:text-5xl font-bold text-[#f8fafc] mb-4 text-[#cbd5e1] animate-fadeInSlideUp">Dewmini Karavita</h1>
+       <p className="text-xl md:text-xl text-[#f8fafc] mb-4 text-[#cbd5e1]/80 animate-fadeInSlideUp">Undergraduate (BSc in ICT, USJ)</p>
     <hr/>
-    <p className="mt-10 text-xl text-white text-lg max-w-lg ">I'm an undergraduate IT student at the University of Sri Jayewardenepura,
+    <p className="mt-10 text-xl text-white text-lg max-w-lg animate-fadeInSlideUp">I'm an undergraduate IT student at the University of Sri Jayewardenepura,
           currently pursuing a BSc in ICT.Passionate about {" "} 
           <span className="text-sky-400 font-medium"></span>and{" "}<span className="text-sky-400 font-medium">Project Management and UI/UX with skills in Python, C#, React, HTML, CSS, SQL and Figma</span> </p>
        
