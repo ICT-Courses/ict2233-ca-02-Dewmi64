@@ -3,7 +3,7 @@ import AboutCard from '../components/AboutCard';
 
 const AboutPage = () => {
   return (
-    <main className="flex justify-center p-4 min-h-screen bg-[#0f172a] text-[#94a3b8] flex justify-center"> 
+    <main className="flex justify-center p-4 min-h-screen bg-[#0f172a] text-[#94a3b8] flex justify-center pt-20"> 
       <div className="w-full max-w-3xl"> 
     <section className= "flex-1 justify-center space-y-8 ">
     <div>
