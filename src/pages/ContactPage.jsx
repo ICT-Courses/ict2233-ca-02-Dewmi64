@@ -75,22 +75,23 @@ const ContactPage = () => {
       <ContactCard
         icon={<FaLinkedin />}
         label="LinkedIn"
-        link=""
+        link="https://www.linkedin.com/in/dewmini-karavita-738b882b0"
       />
       <ContactCard
         icon={<FaGithub />}
         label="GitHub"
-        link=""
+        link="https://github.com/Dewmi64
+"
       />
       <ContactCard
         icon={<FaEnvelope />}
         label="Email"
-        link=""
+        link="dpkdewprabha@gmail.com"
       />
       <ContactCard
         icon={<FaPhone />}
         label="Phone Number"
-        link="tel:"
+        link="tel:077 49 99 660"
       />
     </section>
 
