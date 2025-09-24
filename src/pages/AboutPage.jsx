@@ -1,12 +1,18 @@
 import React from 'react';
 import AboutCard from '../components/AboutCard';
+import ProfilePicture from '../assets/Image/Profile Pic.jpg';
 
 const AboutPage = () => {
   return (
     <main className="flex justify-center p-4 min-h-screen bg-[#0f172a] text-[#94a3b8] flex justify-center pt-20"> 
       <div className="w-full max-w-3xl"> 
     <section className= "flex-1 justify-center space-y-8 ">
-    <div>
+    <div className="flex flex-col items-center text-center">
+    <img 
+    src={ProfilePicture} 
+    alt="Profile" 
+  className="w-64 h-64 rounded-full object-cover border-4 border-[#cbd5e1]" 
+  />
       <h1 className="text-4xl md:text-5xl font-bold text-[#f8fafc] mb-4">
        <span className="text-[#cbd5e1]">About Me</span></h1>
     <p className="text-lg md:text-xl leading-relaxed">
