@@ -50,16 +50,27 @@ const ContactPage = () => {
   };
 
   return (
-    
-    <section className="bg-[#1e293b] p-8 rounded-lg shadow-lg lg:w-1/2">
-      <h1>Contact Page</h1>
+    <main className="min-h-screen bg-[#0f172a] text-[#cbd5e1] p-8 flex justify-center">
+      <div className="w-full max-w-5xl">
+        
+
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#f8fafc] mb-2">Contact Me</h1>
+          <p className="text-lg md:text-xl">
+            I'm always open to new opportunities and collaborations. Feel free to reach out to me!</p>
+        </div>
+  
       
       {isSubmitted && (
         <div className="bg-green-500 text-white p-4 rounded-md mb-6 text-center">
           Your message has been received. Thank you!
         </div>
       )}
-      <section className="space-y-6 lg:space-y-4 lg:w-1/2 mb-8 lg:mb-0">
+
+      
+      <div className="flex flex-col lg:flex-row gap-8">
+
+      <section className="lg:w-1/2 bg-[#1e293b] p-8 rounded-lg shadow-lg flex-1 space-y-6">
       <h2 className="text-2xl md:text-3xl font-semibold text-[#f8fafc] text-center lg:text-left">Get in Touch</h2>
       <ContactCard
         icon={<FaLinkedin />}
@@ -79,12 +90,15 @@ const ContactPage = () => {
       <ContactCard
         icon={<FaPhone />}
         label="Phone Number"
-        link=""
+        link="tel:"
       />
     </section>
 
+      {/* Right column */}
+      <section className="lg:w-1/2 bg-[#1e293b] p-8 rounded-lg shadow-lg">
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#f8fafc] mb-6">Send a Message</h2>
+            
       <form onSubmit={handleSubmit} className="space-y-6">
-
         <div>
           <label htmlFor="name" className="block text-sm font-medium mb-1">Name</label>
           <input
@@ -129,7 +143,9 @@ const ContactPage = () => {
         </button>
       </form>
      </section>
-     
+     </div>
+      </div>
+    </main>
      
   );
 };
