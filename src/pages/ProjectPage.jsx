@@ -1,5 +1,8 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
+import NJKImage from "../assets/Image/NJK Homes .jpg"; 
+import GPAapp from "../assets/Image/GPA App.jpg";
+import SILKshield from "../assets/Image/Silkshield.jpg";
 
 const ProjectPage = () => {
 
@@ -8,24 +11,24 @@ const ProjectPage = () => {
     {
       id: 1,
       name: "GPA+MIND BOOST Application",
-      description: "",
-      image: "",
+      description: "This is my very first project.GPA Mind Boost App is a desktop-based academic performance management system built using C# and Visual Studio. This application is specially designed for university and school students to track,analyze, and improve their GPA in a user-friendly way.",
+      image: GPAapp,
       github: "",
       live: "",
     },
     {
       id: 2,
-      name: "Inventory Management System",
-      description: "",
-      image: "",
+      name: "Silkshield Digital Invoice System",
+      description: "The Customer Management module of SilkShield Digital Management System is a standalone desktop application developed using C# and Visual Studio with MySQL as the backend. This module allows users to add, view, update, and delete customer records efficiently, providing a complete CRUD functionality for managing customer data.",
+      image:SILKshield,
       github: "",
       live: "",
     },
     {
       id: 3,
       name: "NJK Homes and Constructions Website",
-      description: "",
-      image: "", 
+      description: "NJK Homes and Constructions is a simple and elegant website designed to showcase the company and its services. The site provides essential information in a clear, user-friendly way, making it easy for visitors to learn about the company and get in touch.",
+      image: NJKImage, 
       github: "", 
       live: "", 
     },
