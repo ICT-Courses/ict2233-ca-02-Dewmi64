@@ -49,5 +49,3 @@ To run this project locally, follow these steps:
 5.  Open your browser and navigate to the address shown in your terminal (usually `http://localhost:5173`) to view the application.
 
 You can view a live version of the project here:
-
-[https://your-username.github.io/ict2233-ca-02-Dewmi64/](https://your-username.github.io/ict2233-ca-02-Dewmi64/)
