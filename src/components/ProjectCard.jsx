@@ -1,34 +1,34 @@
-import React from 'react';
+import React from "react";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div>
-      <h3>{project.name}</h3>
-      <p>{project.description || "No description available."}</p>
-      {project.topics && project.topics.length > 0 && (
-        <ul>
-          {project.topics.map((topic, index) => (
-            <li key={index}>{topic}</li>
-          ))}
-        </ul>
-      )}
-
-      {/* Links */}
-      <div>
-        {project.html_url && (
-          <a href={project.html_url} target="_blank" rel="noopener noreferrer">
+    <div className="bg-gray-800 text-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+      <img
+        src={project.image}
+        alt={project.name}
+        className="w-full h-48 object-cover"/>
+        
+      <div className="p-4">
+        <h2 className="text-xl font-semibold mb-2">{project.name}</h2>
+        <p className="text-gray-300 mb-4">{project.description}</p>
+        <div className="flex justify-between">
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noreferrer"
+            className="text-blue-400 hover:underline">
             GitHub
           </a>
-        )}
-        {project.homepage && (
-          <a href={project.homepage} target="_blank" rel="noopener noreferrer" style={{ marginLeft: '10px' }}>
+          <a
+            href={project.live}
+            target="_blank"
+            rel="noreferrer"
+            className="text-green-400 hover:underline">
             Live Demo
           </a>
-        )}
+        </div>
       </div>
-      
     </div>
-    
   );
 };
 
