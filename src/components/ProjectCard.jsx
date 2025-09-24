@@ -19,13 +19,6 @@ const ProjectCard = ({ project }) => {
             className="text-blue-400 hover:underline">
             GitHub
           </a>
-          <a
-            href={project.live}
-            target="_blank"
-            rel="noreferrer"
-            className="text-green-400 hover:underline">
-            Live Demo
-          </a>
         </div>
       </div>
     </div>
